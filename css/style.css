@@ -10,7 +10,10 @@ body{
     letter-spacing: 1px;
     background-color:rgb(231, 211, 225);
 }
-
+img{
+    -webkit-filter: drop-shadow(5px 5px 5px #222 );/* ***********all images shadow*********** */
+    filter: drop-shadow(5px 5px 5px #222);
+}
 .l1{
     font-weight: 900;
     display: flex;
