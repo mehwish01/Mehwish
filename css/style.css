@@ -292,8 +292,19 @@ nav ul li a:hover{
   
   
   @media only screen and (max-width:600px){
-      .navbar nav{
-          display:none;
+.col-2 img{
+          display: none;
+      }
+      .col-2 {
+          margin-top: 30%;
+      }
+      .logo .l1{
+          text-align: center;
+          font-size: 40px;
+          margin-left: 40%;
+      }
+      .navbar ul{
+          display: none;
       }
       .crt{
           margin-left:150px;
